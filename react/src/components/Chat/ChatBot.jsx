@@ -25,7 +25,7 @@ export default function ChatBot() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/chat", {
+      const res = await fetch("https://chatbot-git-main-gaurav-sharmas-projects-97aa0168.vercel.app/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),
