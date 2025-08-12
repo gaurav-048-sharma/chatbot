@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        background-color: black;
+        min-width: 100px;
+        border: 10px solid green;
+        margin: 0 auto;
+        color: white;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .box1 {
+        width: 700px;
+        height: 500px;
+        border: 3px solid blue;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: inline-block;
+
+    }
+    .box1 img {
+        margin-top: 20px;
+        height: 200px;
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: contain;
+    }
+    .box .content p {
+        margin-top: 30px;
+        padding: 20px 20px 20px 20px;
+        z-index: 9;
+    }
+    @media only screen and (max-width: 600px) {
+        .box {
+            gap: 0px;
+           display: grid;
+        }
+        .box1 {
+            width: 300px;
+            margin-top: 0px;
+        }
+    }
+</style>
+<body>
+    <div class="box">
+        <div class="box1">
+            <img src="./pexels-souvenirpixels-414612.jpg" alt="hey">
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Deserunt minus reprehenderit aut quibusdam illum accusantium, ducimus, vero,
+                     delectus ratione earukjnm odio provident? Blanditiis, in! Commodi molestiae ad aspernatur eveniet odio.
+                Explicabo, ea vero quaerat veritatis nostrum expedita
+                 mollitia, excepturi quo qui, fugiat eveniet culpa! Dolores et,
+                  cum distinctio quaerat accusamus eveniet! Quaerat ea, voluptate laborum quas autem vitae ex nisi?</p>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="./pexels-souvenirpixels-414612.jpg" alt="hey">
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Deserunt minus reprehenderit aut quibusdam illum accusantium, ducimus, vero,
+                     delectus ratione earukjnm odio provident? Blanditiis, in! Commodi molestiae ad aspernatur eveniet odio.
+                Explicabo, ea vero quaerat veritatis nostrum expedita
+                 mollitia, excepturi quo qui, fugiat eveniet culpa! Dolores et,
+                  cum distinctio quaerat accusamus eveniet! Quaerat ea, voluptate laborum quas autem vitae ex nisi?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
