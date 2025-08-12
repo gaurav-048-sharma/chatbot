@@ -1,6 +1,6 @@
 // src/app/store.js
 import { configureStore } from "@reduxjs/toolkit";
-import counterReducer from "../redux/counterSlice.js";
+import counterReducer from "./counterSlice.js";
 
 // Load state from localStorage
 const loadState = () => {

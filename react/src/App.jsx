@@ -1,6 +1,6 @@
 
 
-import Counter from './components/Counter.jsx'
+import Counter from '../../Counter.jsx'
 import ChatBot from './components/Chat/ChatBot.jsx';
 
 const App = () => {
